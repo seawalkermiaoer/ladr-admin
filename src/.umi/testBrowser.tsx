@@ -3,16 +3,16 @@
 // DO NOT CHANGE IT MANUALLY!
 import React, { useEffect, useState } from 'react';
 import { ApplyPluginsType } from 'umi';
-import { renderClient, RenderClientOpts } from '/Users/shuyang/workspace/ladr-admin/node_modules/@umijs/renderer-react';
+import { renderClient, RenderClientOpts } from 'E:/best/ladr_spaces/ladr-admin/node_modules/@umijs/renderer-react';
 import { createHistory } from './core/history';
 import { createPluginManager } from './core/plugin';
 import { getRoutes } from './core/route';
 import type { Location } from 'history';
 
-import Loading from '/Users/shuyang/workspace/ladr-admin/src/loading.tsx';
+import Loading from 'E:/best/ladr_spaces/ladr-admin/src/loading.tsx';
 
-import '/Users/shuyang/workspace/ladr-admin/src/global.less';
-import '/Users/shuyang/workspace/ladr-admin/src/global.tsx';
+import 'E:/best/ladr_spaces/ladr-admin/src/global.less';
+import 'E:/best/ladr_spaces/ladr-admin/src/global.tsx';
 import 'antd/dist/reset.css';
 const publicPath = '/';
 const runtimePublicPath = false;

@@ -4,15 +4,15 @@
 import React from 'react';
 import { ConfigProvider } from 'antd';
 
-import moment from '/Users/shuyang/workspace/ladr-admin/node_modules/dayjs';
-import '/Users/shuyang/workspace/ladr-admin/node_modules/dayjs/locale/bn-bd';
-import '/Users/shuyang/workspace/ladr-admin/node_modules/dayjs/locale/en';
-import '/Users/shuyang/workspace/ladr-admin/node_modules/dayjs/locale/fa';
-import '/Users/shuyang/workspace/ladr-admin/node_modules/dayjs/locale/id';
-import '/Users/shuyang/workspace/ladr-admin/node_modules/dayjs/locale/ja';
-import '/Users/shuyang/workspace/ladr-admin/node_modules/dayjs/locale/pt-br';
-import '/Users/shuyang/workspace/ladr-admin/node_modules/dayjs/locale/zh-cn';
-import '/Users/shuyang/workspace/ladr-admin/node_modules/dayjs/locale/zh-tw';
+import moment from 'E:/best/ladr_spaces/ladr-admin/node_modules/dayjs';
+import 'E:/best/ladr_spaces/ladr-admin/node_modules/dayjs/locale/bn-bd';
+import 'E:/best/ladr_spaces/ladr-admin/node_modules/dayjs/locale/en';
+import 'E:/best/ladr_spaces/ladr-admin/node_modules/dayjs/locale/fa';
+import 'E:/best/ladr_spaces/ladr-admin/node_modules/dayjs/locale/id';
+import 'E:/best/ladr_spaces/ladr-admin/node_modules/dayjs/locale/ja';
+import 'E:/best/ladr_spaces/ladr-admin/node_modules/dayjs/locale/pt-br';
+import 'E:/best/ladr_spaces/ladr-admin/node_modules/dayjs/locale/zh-cn';
+import 'E:/best/ladr_spaces/ladr-admin/node_modules/dayjs/locale/zh-tw';
 import { RawIntlProvider, getLocale, getDirection , setIntl, getIntl, localeInfo, event, LANG_CHANGE_EVENT } from './localeExports';
 
 

@@ -19,8 +19,8 @@ export async function getRoutes() {
 '9': React.lazy(() => import(/* webpackChunkName: "p__exam-papers__detail" */'@/pages/exam-papers/detail.tsx')),
 '10': React.lazy(() => import('./EmptyRoute')),
 '11': React.lazy(() => import(/* webpackChunkName: "p__404" */'@/pages/404.tsx')),
-'ant-design-pro-layout': React.lazy(() => import(/* webpackChunkName: "umi__plugin-layout__Layout" */'/Users/shuyang/workspace/ladr-admin/src/.umi/plugin-layout/Layout.tsx')),
-'umi/plugin/openapi': React.lazy(() => import(/* webpackChunkName: "umi__plugin-openapi__openapi" */'/Users/shuyang/workspace/ladr-admin/src/.umi/plugin-openapi/openapi.tsx')),
+'ant-design-pro-layout': React.lazy(() => import(/* webpackChunkName: "umi__plugin-layout__Layout" */'E:/best/ladr_spaces/ladr-admin/src/.umi/plugin-layout/Layout.tsx')),
+'umi/plugin/openapi': React.lazy(() => import(/* webpackChunkName: "umi__plugin-openapi__openapi" */'E:/best/ladr_spaces/ladr-admin/src/.umi/plugin-openapi/openapi.tsx')),
 },
   };
 }

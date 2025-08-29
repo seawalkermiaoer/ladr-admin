@@ -73,9 +73,28 @@ declare namespace LADR {
     status: boolean;
   };
 
+  type PresignedUrlResponse = {
+    url: string;
+    object_key: string;
+    expires_in: number;
+    expires_at: string;
+  };
+
   type KnowledgePoint = {
     id: number;
     name: string;
+  };
+
+  type Question = {
+    id: number;
+    exam_paper_id: number;
+    image_id: number;
+    student_id: number;
+    content: string;
+    is_correct: boolean;
+    remark: string;
+    created_time: string;
+    updated_time: string;
   };
 
   type Question = {

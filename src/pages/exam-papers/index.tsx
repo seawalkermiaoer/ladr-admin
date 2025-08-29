@@ -144,7 +144,7 @@ const ExamPapers: React.FC = () => {
           type="primary"
           size="small"
           onClick={() => {
-            history.push(`/exam-papers/${record.id}`);
+            history.push(`/exam-papers/${record.id}`, { examPaper: record });
           }}
         >
           <FormattedMessage
